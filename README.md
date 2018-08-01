@@ -1,20 +1,39 @@
-Laggyload is simply asynchronus lazyloader.
+Laggyload is simply asynchronus lazyloader.  
 It features thhrow away viewport (scroll) trigger.
+
+## Setup
+
+```bash
+yarn add laggyload
+```
+
+```js
+import Laggyload from 'laggyload'
+```
 
 ## Usage
 
 First of all, look and read [here(original)](https://github.com/tuupola/jquery_lazyload).
 
-```javascript
+### Most simple case
+
+```js
+const Async = new Laggyload()
+Async.main()
+```
+
+### Optional
+
+```js
 const Async = new Laggyload('.async', 1000)
 
-// Callback example
-const CallbackSample = (_) => {
+// Do something at after load
+const AfterLoadedFunction = (_) => {
     _.classList.add('is-loaded')
     console.log('that\'s all')
 }
 
-Async.main(CallbackSample)
+Async.main(AfterLoadedFunction)
 ```
 
 - 1st augument: Target querySelector (default: _.async_)
