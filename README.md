@@ -1,6 +1,8 @@
 Laggyload is simply asynchronus lazyloader it features throw away viewport (scroll) trigger.  
 Laggyload（ラギーロード）は、スクロールトリガー式でない単純なlazyloaderです。
 
+> [demo](https://pokkur.github.io/laggyload/)
+
 ## Setup
 
 ```bash
