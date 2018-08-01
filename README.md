@@ -57,6 +57,7 @@ yarn add laggyload
 
 - [ ] add attributes option
 - [ ] placehold backgroundColor
+- [ ] seo
 
 Fork me :D
 
