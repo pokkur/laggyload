@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .async {
+            margin: 10px;
+            width: 128px;
+        }
+    </style>
 </head>
 <body>
 <img class="async" data-src="https://images-na.ssl-images-amazon.com/images/I/412KJM247ZL._SX352_BO1,204,203,200_.jpg" src="https://placehold.jp/150x150.png"/>
@@ -12,15 +18,6 @@
 <img class="async" data-src="https://images-na.ssl-images-amazon.com/images/I/41Ag1ClrYLL._SX348_BO1,204,203,200_.jpg" src="https://placehold.jp/150x150.png"/>
 <img class="async" data-src="https://images-na.ssl-images-amazon.com/images/I/51QsmvkObML._SX392_BO1,204,203,200_.jpg" src="https://placehold.jp/150x150.png"/>
 
-<script type="module">
-import Laggyload from './lib/index.js'
-const Async = new Laggyload('.async', 1000)
-
-const CallbackSample = (_) => {
-    _.classList.add('is-loaded')
-    // console.log('that\'s all')
-}
-Async.main(CallbackSample)
-</script>
+<script src="demo/main.js"></script>
 </body>
 </html>
