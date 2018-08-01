@@ -36,8 +36,8 @@ const AfterLoadedFunction = (_) => {
 Async.main(AfterLoadedFunction)
 ```
 
-- 1st augument: Target querySelector (default: _.async_)
-- 2nd augument: Delay time until display image (millisecond, default: _100_)
+- 1st augment: Target querySelector (default: _.async_)
+- 2nd augment: Delay time until display image (millisecond, default: _100_)
 
 ```html
 <img class="async" src="loading.gif" data-src="authentic_image.png">
