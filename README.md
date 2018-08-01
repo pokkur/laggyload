@@ -1,4 +1,5 @@
-Laggyload is simply asynchronus lazyloader it features throw away viewport (scroll) trigger.
+Laggyload is simply asynchronus lazyloader it features throw away viewport (scroll) trigger.  
+Laggyload（ラギーロード）は、スクロールトリガー式でない単純なlazyloaderです。
 
 ## Setup
 
