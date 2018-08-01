@@ -1,10 +1,14 @@
-Fork me :D
+Laggyload is simply asynchronus lazyloader.
+It features thhrow away viewport (scroll) trigger.
 
 ## Usage
+
+First of all, look and read [here(original)](https://github.com/tuupola/jquery_lazyload).
 
 ```javascript
 const Async = new Laggyload('.async', 1000)
 
+// Callback example
 const CallbackSample = (_) => {
     _.classList.add('is-loaded')
     console.log('that\'s all')
@@ -34,6 +38,8 @@ yarn add laggyload
 
 - [ ] add attributes option
 - [ ] placehold backgroundColor
+
+Fork me :D
 
 # License
 
