@@ -1,4 +1,4 @@
-Laggyload is simply asynchronus lazyloader.  
+Laggyload is simply asynchronus lazyloader.
 It features thhrow away viewport (scroll) trigger.
 
 ## Setup
@@ -22,7 +22,7 @@ const Async = new Laggyload()
 Async.main()
 ```
 
-### Optional
+### Optional case
 
 ```js
 const Async = new Laggyload('.async', 1000)

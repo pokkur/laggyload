@@ -1,6 +1,6 @@
 {
     "name": "laggyload",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Asynchronous image loader class",
     "main": "./lib/index.js",
     "scripts": {
