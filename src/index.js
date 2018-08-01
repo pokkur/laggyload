@@ -5,7 +5,7 @@ class Laggyload {
         this.delay = delay
     }
 
-    main(callback = null) {
+    load(callback = null) {
         if (this.Items.length > 0) {
             Array.prototype.forEach.call(this.Items, (_) => {
                 const img = new Image() // eslint-disable-line no-undef

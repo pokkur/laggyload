@@ -18,14 +18,14 @@ First of all, look and read [here(original)](https://github.com/tuupola/jquery_l
 ### Most simple case
 
 ```js
-const Async = new Laggyload()
-Async.main()
+const Laggy = new Laggyload()
+Laggy.load()
 ```
 
 ### Optional case
 
 ```js
-const Async = new Laggyload('.async', 1000)
+const Laggy = new Laggyload('.async', 1000)
 
 // Do something at after load
 const AfterLoadedFunction = (_) => {
@@ -33,7 +33,7 @@ const AfterLoadedFunction = (_) => {
     console.log('that\'s all')
 }
 
-Async.main(AfterLoadedFunction)
+Laggy.load(AfterLoadedFunction)
 ```
 
 - 1st augument: Target querySelector (default: _.async_)

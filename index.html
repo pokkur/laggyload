@@ -12,8 +12,8 @@
 <img class="async" data-src="https://images-na.ssl-images-amazon.com/images/I/41Ag1ClrYLL._SX348_BO1,204,203,200_.jpg" src="https://placehold.jp/150x150.png"/>
 <img class="async" data-src="https://images-na.ssl-images-amazon.com/images/I/51QsmvkObML._SX392_BO1,204,203,200_.jpg" src="https://placehold.jp/150x150.png"/>
 
-<script src="./lib/index.js"></script>
-<script>
+<script type="module">
+import Laggyload from './lib/index.js'
 const Async = new Laggyload('.async', 1000)
 
 const CallbackSample = (_) => {
