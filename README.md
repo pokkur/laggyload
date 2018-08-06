@@ -49,12 +49,6 @@ Laggy.load(AfterLoadedFunction)
 - Placehold image for `src` attribute
 - Authentic image for `data-src` attribute
 
-## Setup
-
-```
-yarn add laggyload
-```
-
 ## Next
 
 - [ ] add attributes option
