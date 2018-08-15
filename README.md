@@ -1,5 +1,5 @@
 Laggyload is simply asynchronus image loader it features throw away viewport (scroll) trigger.  
-Laggyload（ラギーロード）は、スクロールトリガー式でない単純な画像ローダーです。
+Laggyload（ラギーロード）は、スクロールトリガー式でない単純な非同期画像ローダーです。
 
 > [demo](https://pokkur.github.io/laggyload/)
 
